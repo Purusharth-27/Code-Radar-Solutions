@@ -5,8 +5,11 @@ int main(){
     if(a>b){
         printf("Yes");
     }
-    else{
+    else if(a<b){
         printf("NO");
     }
+    else if(a == b{
+        printf("Yes");
+    })
     return 0;
 }
