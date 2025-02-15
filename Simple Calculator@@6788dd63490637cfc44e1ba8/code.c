@@ -3,7 +3,7 @@
 int main() {
     int a, b;
     char c;
-    float d;  // Change d to float for division
+    int d;  // Change d to float for division
 
     // printf("Enter two numbers and an operator: ");
     scanf("%d %d", &a, &b);
