@@ -16,19 +16,19 @@ int main() {
             break;
         case '-':
             d = a - b;
-            printf("%.2f", d);
+            printf("%d", d);
             break;
         case '/':
             if (b == 0) {
                 printf("error");
             } else {
                 d = (float)a / b;
-                printf("%.2f", d);
+                printf("%d", d);
             }
             break;
         case '*':
             d = a * b;
-            printf("%.2f", d);
+            printf("%d", d);
             break;
         default:
             printf("Invalid operator");
