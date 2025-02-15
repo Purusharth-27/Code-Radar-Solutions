@@ -1,14 +1,10 @@
 #include <stdio.h>
-
 int main() {
     int a, b;
     char c;
-    int d;  // Change d to float for division
-
-    // printf("Enter two numbers and an operator: ");
+    int d; 
     scanf("%d %d", &a, &b);
-    scanf(" %c", &c); // Space before %c to handle newline
-
+    scanf(" %c", &c);
     switch (c) {
         case '+':
             d = a + b;
