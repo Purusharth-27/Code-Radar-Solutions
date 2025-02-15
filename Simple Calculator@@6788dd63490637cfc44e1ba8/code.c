@@ -20,7 +20,7 @@ int main() {
             break;
         case '/':
             if (b == 0) {
-                // printf("Error: Division by zero");
+                printf("Error");
             } else {
                 d = (float)a / b;
                 printf("%.2f", d);
