@@ -10,7 +10,7 @@ int main() {
     result = num1 / num2;
 
     // Displaying the result with high precision
-    printf("You entered: %.15lf\n", result);
+    printf("You entered: %.4lf\n", result);
 
     return 0;
 }
