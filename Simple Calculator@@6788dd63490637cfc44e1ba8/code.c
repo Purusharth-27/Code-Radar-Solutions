@@ -5,7 +5,7 @@ int main() {
     char c;
     float d;  // Change d to float for division
 
-    printf("Enter two numbers and an operator: ");
+    // printf("Enter two numbers and an operator: ");
     scanf("%d %d", &a, &b);
     scanf(" %c", &c); // Space before %c to handle newline
 
@@ -20,7 +20,7 @@ int main() {
             break;
         case '/':
             if (b == 0) {
-                printf("Error: Division by zero");
+                // printf("Error: Division by zero");
             } else {
                 d = (float)a / b;
                 printf("%.2f", d);
