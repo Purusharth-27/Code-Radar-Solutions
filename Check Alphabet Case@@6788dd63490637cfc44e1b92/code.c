@@ -3,10 +3,10 @@
 int main(
 char a;
 scanf("%c",&a);
-if(isUpper(a)){
+if(isupper(a)){
     printf("Uppercase");
 }
-else if(isLower(a)){
+else if(islower(a)){
     printf("Lowercase");
 }
 else{
@@ -14,3 +14,20 @@ else{
 }
 return 0;
 )
+
+#include<stdio.h>
+#include<ctype.h>
+int main(){
+    char a;
+    scanf("%c",&a);
+    if(isupper(a)){
+        printf("Uppercase");
+    }
+    else if(islower(a)){
+        printf("Lowercase");
+    }
+    else{
+        printf("Not an alphabet");
+    }
+    return 0;
+}
