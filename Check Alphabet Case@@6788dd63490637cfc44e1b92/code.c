@@ -6,7 +6,7 @@ scanf("%c",&a);
 if(isupper(a)){
     printf("Uppercase");
 }
-else if(islower(a)){
+else if(isLower(a)){
     printf("Lowercase");
 }
 else{
