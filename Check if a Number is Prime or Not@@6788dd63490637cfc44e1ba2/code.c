@@ -3,7 +3,7 @@ int main(){
     int i,num,count;
     scanf("%d",&num);
     for(i=1;i<=num;i++){
-        if(num%i==0){
+        if(i%num==o){
             count++;
         }
     }
