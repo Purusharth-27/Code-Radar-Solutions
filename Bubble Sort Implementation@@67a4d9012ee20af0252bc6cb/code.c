@@ -1,5 +1,5 @@
 #include<stdio.h>
-void bubblesort(int arr[],int a,int b){
+void bubbleSort(int arr[],int a,int b){
     while(a<b){
         int temp = arr[a];
         arr[a] = arr[b];
@@ -21,6 +21,6 @@ int main()
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    bubblesort(arr,n);
+    bubbleSort(arr,n);
     printArray(arr,n);
 }
