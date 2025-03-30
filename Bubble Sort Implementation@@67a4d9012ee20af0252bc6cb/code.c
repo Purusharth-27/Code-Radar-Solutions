@@ -1,11 +1,13 @@
 #include<stdio.h>
-void bubbleSort(int arr[],int a,int b){
-    while(a<b){
-        int temp = arr[a];
-        arr[a] = arr[b];
-        arr[b] = temp;
-        a++;
-        b--;
+void bubbleSort(int arr[],int n){
+    for(int i=0;i<n-1;i++){
+        for(int j=0;j<n-i-1;j++){
+            if(arr[j]>arr[j+1]){
+                int temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = arr[j];
+            }
+        }
     }
 }
 void printArray(int arr[],int n){
